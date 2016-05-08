@@ -1,0 +1,92 @@
+﻿Build started 19/06/2015 15:18:08.
+     1>Project "D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Mortal Kombat 3\Mortal Kombat 3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainMenu.cpp main.cpp
+         main.cpp
+         MainMenu.cpp
+         Generating Code...
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Debug\Mortal Kombat 3.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-main-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Debug\Mortal Kombat 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Debug\Mortal Kombat 3.lib" /MACHINE:X86 Debug\Arena.obj
+         Debug\AttackExecute.obj
+         Debug\AttackMove.obj
+         Debug\BlockGenerator.obj
+         Debug\Button.obj
+         Debug\CharacterSkill.obj
+         Debug\CharacterButton.obj
+         Debug\characterSingleton.obj
+         Debug\CharacterSkillKitana.obj
+         Debug\CharacterSkillLiuKang.obj
+         Debug\CharacterSkillSonya.obj
+         Debug\CharacterSkillSubZero.obj
+         Debug\ComputerPlayer.obj
+         Debug\Controller.obj
+         Debug\Decision.obj
+         Debug\Defeat.obj
+         Debug\Difficulty.obj
+         Debug\DifficultyEasy.obj
+         Debug\DifficultyHard.obj
+         Debug\DifficultyMedium.obj
+         Debug\DistanceDecision.obj
+         Debug\Duckattack.obj
+         Debug\DuckBlock.obj
+         Debug\DuckHighPunch.obj
+         Debug\Ducking.obj
+         Debug\DuckKick.obj
+         Debug\DuckLowPunch.obj
+         Debug\Execute.obj
+         Debug\ExecuteThreeParameters.obj
+         Debug\ExecuteTwoParameters.obj
+         Debug\GeneralSingleton.obj
+         Debug\GetcloserSpecial.obj
+         Debug\GetcloserStand.obj
+         Debug\GetcloserStandBackaway.obj
+         Debug\HighKick.obj
+         Debug\HighPunch.obj
+         Debug\HumanPlayer.obj
+         Debug\ImageSingelton.obj
+         Debug\InjuryDuck.obj
+         Debug\InjuryJump.obj
+         Debug\InjuryMove.obj
+         Debug\InjuryStand.obj
+         Debug\Jumpattack.obj
+         Debug\JumpDecision.obj
+         Debug\JumpDistanceDecision.obj
+         Debug\JumpKick.obj
+         Debug\JumpMove.obj
+         Debug\JumpPunch.obj
+         Debug\JumpSide.obj
+         Debug\JumpStand.obj
+         Debug\JumpStandBackaway.obj
+         Debug\JumpStandSpecial.obj
+         Debug\LowKick.obj
+         Debug\LowPunch.obj
+         Debug\MenuButton.obj
+         Debug\Credit.obj
+         Debug\main.obj
+         Debug\MainMenu.obj
+         Debug\Move.obj
+         Debug\MovePosition.obj
+         Debug\OpponentBlockDecision.obj
+         Debug\OpponentDuckDecision.obj
+         Debug\OpponentLifeDecision.obj
+         Debug\OpponentStandDecision.obj
+         Debug\RandomAttack.obj
+         Debug\SpecialMove.obj
+         Debug\specialObject.obj
+         Debug\Stand.obj
+         Debug\StandBackawayDuckattack.obj
+         Debug\StandBlock.obj
+         Debug\State.obj
+         Debug\Player.obj
+         Debug\Start.obj
+         Debug\StatusBar.obj
+         Debug\TreeNode.obj
+         Debug\UpperAttack.obj
+         Debug\Victory.obj
+         Debug\Walking.obj
+         Mortal Kombat 3.vcxproj -> D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Debug\Mortal Kombat 3.exe
+     1>Done Building Project "D:\visual studio 2013\Projects\Mortal Kombat 3 30.5\Mortal Kombat 3\Mortal Kombat 3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.52

@@ -1,0 +1,230 @@
+﻿Build started 23/06/2015 21:13:23.
+     1>Project "D:\visual studio 2013\Projects\mortalKombat 19.6.15\mortalKombat 19.6.15\mortalKombat 19.6.15.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp Difficult\Decision\Decision.cpp Difficult\Decision\DistanceDecision.cpp Difficult\Decision\JumpDecision.cpp Difficult\Decision\JumpDistanceDecision.cpp Difficult\Decision\OpponentBlockDecision.cpp Difficult\Decision\OpponentDuckDecision.cpp Difficult\Decision\OpponentLifeDecision.cpp Difficult\Decision\OpponentStandDecision.cpp Difficult\Difficulty.cpp Difficult\DifficultyEasy.cpp Difficult\DifficultyHard.cpp Difficult\DifficultyMedium.cpp Difficult\Execute\AttackExecute.cpp Difficult\Execute\BlockGenerator\BlockGenerator.cpp Difficult\Execute\Duckattack.cpp Difficult\Execute\Execute.cpp Difficult\Execute\ExecuteThreeParameters.cpp Difficult\Execute\ExecuteTwoParameters.cpp Difficult\Execute\GetcloserSpecial.cpp Difficult\Execute\GetcloserStand.cpp Difficult\Execute\GetcloserStandBackaway.cpp Difficult\Execute\Jumpattack.cpp Difficult\Execute\JumpStand.cpp Difficult\Execute\JumpStandBackaway.cpp Difficult\Execute\JumpStandSpecial.cpp Difficult\Execute\RandomAttack.cpp Difficult\Execute\StandBackawayDuckattack.cpp Difficult\Execute\UpperAttack.cpp Difficult\TreeNode.cpp game\Move\AttackMove.cpp game\Move\Defeat.cpp game\Move\duck\DuckBlock.cpp game\Move\duck\DuckHighPunch.cpp game\Move\duck\Ducking.cpp game\Move\duck\DuckKick.cpp game\Move\duck\DuckLowPunch.cpp game\Move\injury\InjuryDuck.cpp game\Move\injury\InjuryJump.cpp game\Move\injury\InjuryMove.cpp game\Move\injury\InjuryStand.cpp game\Move\jump\JumpKick.cpp game\Move\jump\JumpMove.cpp game\Move\jump\JumpPunch.cpp game\Move\jump\JumpSide.cpp game\Move\Move.cpp game\Move\MovePosition.cpp game\Move\SpecialMove.cpp game\Move\stand\HighKick.cpp game\Move\stand\HighPunch.cpp game\Move\stand\LowKick.cpp game\Move\stand\LowPunch.cpp game\Move\stand\Stand.cpp game\Move\stand\StandBlock.cpp game\Move\stand\Walking.cpp game\Move\Victory.cpp game\Player\CharacterSkill\CharacterSkill.cpp game\Player\CharacterSkill\CharacterSkillKitana.cpp game\Player\CharacterSkill\CharacterSkillLiuKang.cpp game\Player\CharacterSkill\CharacterSkillSonya.cpp game\Player\CharacterSkill\CharacterSkillSubZero.cpp game\Player\ComputerPlayer.cpp game\Player\HumanPlayer.cpp game\Player\Player.cpp game\Player\specialObject.cpp game\State.cpp game\StatusBar.cpp main.cpp Menu\Button.cpp Menu\CharacterButton.cpp Menu\MainMenu.cpp Menu\MenuButtons\Credit.cpp Menu\MenuButtons\MenuButton.cpp Menu\MenuButtons\Start.cpp singleton\characterSingleton.cpp singleton\GeneralSingleton.cpp singleton\ImageSingelton.cpp
+         Controller.cpp
+     1>Controller.cpp(55): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>Controller.cpp(143): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Controller.cpp(144): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Controller.cpp(145): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Controller.cpp(149): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Decision.cpp
+         DistanceDecision.cpp
+         JumpDecision.cpp
+         JumpDistanceDecision.cpp
+         OpponentBlockDecision.cpp
+         OpponentDuckDecision.cpp
+         OpponentLifeDecision.cpp
+         OpponentStandDecision.cpp
+         Difficulty.cpp
+         DifficultyEasy.cpp
+         DifficultyHard.cpp
+         DifficultyMedium.cpp
+         AttackExecute.cpp
+         BlockGenerator.cpp
+     1>Difficult\Execute\BlockGenerator\BlockGenerator.cpp(8): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>Difficult\Execute\BlockGenerator\BlockGenerator.cpp(23): warning C4018: '<=' : signed/unsigned mismatch
+         Duckattack.cpp
+         Execute.cpp
+     1>Difficult\Execute\Execute.cpp(9): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+         ExecuteThreeParameters.cpp
+         ExecuteTwoParameters.cpp
+         GetcloserSpecial.cpp
+     1>Difficult\Execute\GetcloserSpecial.cpp(24): warning C4018: '<=' : signed/unsigned mismatch
+         Compiling...
+         GetcloserStand.cpp
+     1>Difficult\Execute\GetcloserStand.cpp(23): warning C4018: '<=' : signed/unsigned mismatch
+         GetcloserStandBackaway.cpp
+     1>Difficult\Execute\GetcloserStandBackaway.cpp(23): warning C4018: '<=' : signed/unsigned mismatch
+     1>Difficult\Execute\GetcloserStandBackaway.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>Difficult\Execute\GetcloserStandBackaway.cpp(28): warning C4018: '<=' : signed/unsigned mismatch
+         Jumpattack.cpp
+         JumpStand.cpp
+     1>Difficult\Execute\JumpStand.cpp(23): warning C4018: '<=' : signed/unsigned mismatch
+         JumpStandBackaway.cpp
+     1>Difficult\Execute\JumpStandBackaway.cpp(22): warning C4018: '<=' : signed/unsigned mismatch
+     1>Difficult\Execute\JumpStandBackaway.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>Difficult\Execute\JumpStandBackaway.cpp(27): warning C4018: '<=' : signed/unsigned mismatch
+         JumpStandSpecial.cpp
+     1>Difficult\Execute\JumpStandSpecial.cpp(20): warning C4018: '<=' : signed/unsigned mismatch
+     1>Difficult\Execute\JumpStandSpecial.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>Difficult\Execute\JumpStandSpecial.cpp(24): warning C4018: '<=' : signed/unsigned mismatch
+         RandomAttack.cpp
+         StandBackawayDuckattack.cpp
+     1>Difficult\Execute\StandBackawayDuckattack.cpp(22): warning C4018: '<=' : signed/unsigned mismatch
+     1>Difficult\Execute\StandBackawayDuckattack.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>Difficult\Execute\StandBackawayDuckattack.cpp(26): warning C4018: '<=' : signed/unsigned mismatch
+         UpperAttack.cpp
+         TreeNode.cpp
+         AttackMove.cpp
+         Defeat.cpp
+         DuckBlock.cpp
+         DuckHighPunch.cpp
+     1>game\Move\duck\DuckHighPunch.cpp(9): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>game\Move\duck\DuckHighPunch.cpp(38): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>game\Move\duck\DuckHighPunch.cpp(43): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         Ducking.cpp
+         DuckKick.cpp
+     1>game\Move\duck\DuckKick.cpp(40): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         DuckLowPunch.cpp
+     1>game\Move\duck\DuckLowPunch.cpp(40): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         InjuryDuck.cpp
+         InjuryJump.cpp
+         InjuryMove.cpp
+         Compiling...
+         InjuryStand.cpp
+         JumpKick.cpp
+     1>game\Move\jump\JumpKick.cpp(80): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>game\Move\jump\JumpKick.cpp(85): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         JumpMove.cpp
+         JumpPunch.cpp
+     1>game\Move\jump\JumpPunch.cpp(78): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>game\Move\jump\JumpPunch.cpp(83): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         JumpSide.cpp
+         Move.cpp
+         MovePosition.cpp
+         SpecialMove.cpp
+     1>game\Move\SpecialMove.cpp(100): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         HighKick.cpp
+     1>game\Move\stand\HighKick.cpp(39): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         HighPunch.cpp
+     1>game\Move\stand\HighPunch.cpp(38): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         LowKick.cpp
+     1>game\Move\stand\LowKick.cpp(31): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         LowPunch.cpp
+     1>game\Move\stand\LowPunch.cpp(39): warning C4244: 'return' : conversion from 'const double' to 'int', possible loss of data
+         Stand.cpp
+         StandBlock.cpp
+         Walking.cpp
+         Victory.cpp
+         CharacterSkill.cpp
+     1>game\Player\CharacterSkill\CharacterSkill.cpp(22): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>game\Player\CharacterSkill\CharacterSkill.cpp(34): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>game\Player\CharacterSkill\CharacterSkill.cpp(46): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+         CharacterSkillKitana.cpp
+         CharacterSkillLiuKang.cpp
+         CharacterSkillSonya.cpp
+         Compiling...
+         CharacterSkillSubZero.cpp
+         ComputerPlayer.cpp
+         HumanPlayer.cpp
+         Player.cpp
+         specialObject.cpp
+         State.cpp
+     1>game\State.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(17): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(44): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(71): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(74): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>game\State.cpp(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+         StatusBar.cpp
+     1>game\StatusBar.cpp(9): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>game\StatusBar.cpp(10): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         main.cpp
+         Button.cpp
+         CharacterButton.cpp
+         MainMenu.cpp
+         Credit.cpp
+     1>Menu\MenuButtons\Credit.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         MenuButton.cpp
+         Start.cpp
+     1>Menu\MenuButtons\Start.cpp(23): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Menu\MenuButtons\Start.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>Menu\MenuButtons\Start.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+         characterSingleton.cpp
+         GeneralSingleton.cpp
+         ImageSingelton.cpp
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual studio 2013\Projects\mortalKombat 19.6.15\Release\mortalKombat 19.6.15.exe" /INCREMENTAL:NO /NOLOGO "sfml-graphics.lib" "sfml-main.lib" "sfml-system.lib" "sfml-window.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\visual studio 2013\Projects\mortalKombat 19.6.15\Release\mortalKombat 19.6.15.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual studio 2013\Projects\mortalKombat 19.6.15\Release\mortalKombat 19.6.15.lib" /MACHINE:X86 /SAFESEH Release\Controller.obj
+         Release\Decision.obj
+         Release\DistanceDecision.obj
+         Release\JumpDecision.obj
+         Release\JumpDistanceDecision.obj
+         Release\OpponentBlockDecision.obj
+         Release\OpponentDuckDecision.obj
+         Release\OpponentLifeDecision.obj
+         Release\OpponentStandDecision.obj
+         Release\Difficulty.obj
+         Release\DifficultyEasy.obj
+         Release\DifficultyHard.obj
+         Release\DifficultyMedium.obj
+         Release\AttackExecute.obj
+         Release\BlockGenerator.obj
+         Release\Duckattack.obj
+         Release\Execute.obj
+         Release\ExecuteThreeParameters.obj
+         Release\ExecuteTwoParameters.obj
+         Release\GetcloserSpecial.obj
+         Release\GetcloserStand.obj
+         Release\GetcloserStandBackaway.obj
+         Release\Jumpattack.obj
+         Release\JumpStand.obj
+         Release\JumpStandBackaway.obj
+         Release\JumpStandSpecial.obj
+         Release\RandomAttack.obj
+         Release\StandBackawayDuckattack.obj
+         Release\UpperAttack.obj
+         Release\TreeNode.obj
+         Release\AttackMove.obj
+         Release\Defeat.obj
+         Release\DuckBlock.obj
+         Release\DuckHighPunch.obj
+         Release\Ducking.obj
+         Release\DuckKick.obj
+         Release\DuckLowPunch.obj
+         Release\InjuryDuck.obj
+         Release\InjuryJump.obj
+         Release\InjuryMove.obj
+         Release\InjuryStand.obj
+         Release\JumpKick.obj
+         Release\JumpMove.obj
+         Release\JumpPunch.obj
+         Release\JumpSide.obj
+         Release\Move.obj
+         Release\MovePosition.obj
+         Release\SpecialMove.obj
+         Release\HighKick.obj
+         Release\HighPunch.obj
+         Release\LowKick.obj
+         Release\LowPunch.obj
+         Release\Stand.obj
+         Release\StandBlock.obj
+         Release\Walking.obj
+         Release\Victory.obj
+         Release\CharacterSkill.obj
+         Release\CharacterSkillKitana.obj
+         Release\CharacterSkillLiuKang.obj
+         Release\CharacterSkillSonya.obj
+         Release\CharacterSkillSubZero.obj
+         Release\ComputerPlayer.obj
+         Release\HumanPlayer.obj
+         Release\Player.obj
+         Release\specialObject.obj
+         Release\State.obj
+         Release\StatusBar.obj
+         Release\main.obj
+         Release\Button.obj
+         Release\CharacterButton.obj
+         Release\MainMenu.obj
+         Release\Credit.obj
+         Release\MenuButton.obj
+         Release\Start.obj
+         Release\characterSingleton.obj
+         Release\GeneralSingleton.obj
+         Release\ImageSingelton.obj
+         Generating code
+         Finished generating code
+         mortalKombat 19.6.15.vcxproj -> D:\visual studio 2013\Projects\mortalKombat 19.6.15\Release\mortalKombat 19.6.15.exe
+     1>Done Building Project "D:\visual studio 2013\Projects\mortalKombat 19.6.15\mortalKombat 19.6.15\mortalKombat 19.6.15.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.30

@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Difficult">
+      <UniqueIdentifier>{d0a34f7c-a652-4450-a3ae-cc6925bf79e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Difficult\Decision">
+      <UniqueIdentifier>{ddf8f227-e037-4c17-8f52-35781d1b27c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Difficult\Execute">
+      <UniqueIdentifier>{afa4b620-2ed5-4545-b803-2de5ce1688e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Difficult\Execute\BlockGenerator">
+      <UniqueIdentifier>{7c7c8f16-bbae-41b9-8938-afbe39d508f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{4c61b28e-4c5e-451b-93e9-d617ccd51e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Move">
+      <UniqueIdentifier>{bf49f0c6-7f17-43bf-8989-70e56d0bfa8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Player">
+      <UniqueIdentifier>{ab219c9d-e433-43a9-8cc0-61072d48ba01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Move\duck">
+      <UniqueIdentifier>{27220eb6-34a9-4b68-8ba1-5c8bc0591466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Move\injury">
+      <UniqueIdentifier>{69074601-d025-4483-97bb-06d2327e34d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Move\jump">
+      <UniqueIdentifier>{493559e8-b0be-4961-915e-647339b22982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Move\stand">
+      <UniqueIdentifier>{a6bda037-131b-46ad-b4f7-b56224bca116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\Player\CharacterSkill">
+      <UniqueIdentifier>{e05043d1-afa6-4bd6-9627-abd491d9a4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{002cef34-be39-4ae3-bf72-0669927f5232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\MenuButtons">
+      <UniqueIdentifier>{2d14e8c0-a646-404e-845f-e33f3d23746d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\singleton">
+      <UniqueIdentifier>{cd7c7589-49fd-4ddb-bd3d-cb4a8d6c9afa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Difficult\Difficulty.cpp">
+      <Filter>Source Files\Difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\DifficultyEasy.cpp">
+      <Filter>Source Files\Difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\DifficultyHard.cpp">
+      <Filter>Source Files\Difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\DifficultyMedium.cpp">
+      <Filter>Source Files\Difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\TreeNode.cpp">
+      <Filter>Source Files\Difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\Decision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\DistanceDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\JumpDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\JumpDistanceDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\OpponentBlockDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\OpponentDuckDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\OpponentLifeDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Decision\OpponentStandDecision.cpp">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\BlockGenerator\BlockGenerator.cpp">
+      <Filter>Source Files\Difficult\Execute\BlockGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\AttackExecute.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\Duckattack.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\Execute.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\ExecuteThreeParameters.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\ExecuteTwoParameters.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\GetcloserSpecial.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\GetcloserStand.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\GetcloserStandBackaway.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\Jumpattack.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\JumpStand.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\JumpStandBackaway.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\JumpStandSpecial.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\RandomAttack.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\StandBackawayDuckattack.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficult\Execute\UpperAttack.cpp">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\duck\DuckBlock.cpp">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\duck\DuckHighPunch.cpp">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\duck\Ducking.cpp">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\duck\DuckKick.cpp">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\duck\DuckLowPunch.cpp">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\injury\InjuryDuck.cpp">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\injury\InjuryJump.cpp">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\injury\InjuryMove.cpp">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\injury\InjuryStand.cpp">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\jump\JumpKick.cpp">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\jump\JumpMove.cpp">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\jump\JumpPunch.cpp">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\jump\JumpSide.cpp">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\HighKick.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\HighPunch.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\LowKick.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\LowPunch.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\Stand.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\StandBlock.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\stand\Walking.cpp">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\AttackMove.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\Defeat.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\Move.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\MovePosition.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\SpecialMove.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Move\Victory.cpp">
+      <Filter>Source Files\game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkill.cpp">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillKitana.cpp">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillLiuKang.cpp">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillSonya.cpp">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillSubZero.cpp">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\ComputerPlayer.cpp">
+      <Filter>Source Files\game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\HumanPlayer.cpp">
+      <Filter>Source Files\game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\Player.cpp">
+      <Filter>Source Files\game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player\specialObject.cpp">
+      <Filter>Source Files\game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="game\State.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\StatusBar.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Button.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\CharacterButton.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MainMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuButtons\Credit.cpp">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuButtons\MenuButton.cpp">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuButtons\Start.cpp">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton\characterSingleton.cpp">
+      <Filter>Source Files\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton\GeneralSingleton.cpp">
+      <Filter>Source Files\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton\ImageSingelton.cpp">
+      <Filter>Source Files\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Difficult\TreeNode.h">
+      <Filter>Source Files\Difficult</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Difficulty.h">
+      <Filter>Source Files\Difficult</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\DifficultyEasy.h">
+      <Filter>Source Files\Difficult</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\DifficultyHard.h">
+      <Filter>Source Files\Difficult</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\DifficultyMedium.h">
+      <Filter>Source Files\Difficult</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\Decision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\DistanceDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\JumpDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\JumpDistanceDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\OpponentBlockDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\OpponentDuckDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\OpponentLifeDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Decision\OpponentStandDecision.h">
+      <Filter>Source Files\Difficult\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\BlockGenerator\BlockGenerator.h">
+      <Filter>Source Files\Difficult\Execute\BlockGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\AttackExecute.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\Duckattack.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\Execute.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\ExecuteThreeParameters.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\ExecuteTwoParameters.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\GetcloserSpecial.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\GetcloserStand.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\GetcloserStandBackaway.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\Jumpattack.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\JumpStand.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\JumpStandBackaway.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\JumpStandSpecial.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\RandomAttack.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\StandBackawayDuckattack.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficult\Execute\UpperAttack.h">
+      <Filter>Source Files\Difficult\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\duck\DuckBlock.h">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\duck\DuckHighPunch.h">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\duck\Ducking.h">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\duck\DuckKick.h">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\duck\DuckLowPunch.h">
+      <Filter>Source Files\game\Move\duck</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\injury\InjuryDuck.h">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\injury\InjuryJump.h">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\injury\InjuryMove.h">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\injury\InjuryStand.h">
+      <Filter>Source Files\game\Move\injury</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\jump\JumpKick.h">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\jump\JumpMove.h">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\jump\JumpPunch.h">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\jump\JumpSide.h">
+      <Filter>Source Files\game\Move\jump</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\HighKick.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\HighPunch.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\LowKick.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\LowPunch.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\Stand.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\StandBlock.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\stand\Walking.h">
+      <Filter>Source Files\game\Move\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\AttackMove.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\Defeat.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\Move.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\MovePosition.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\SpecialMove.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Move\Victory.h">
+      <Filter>Source Files\game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkill.h">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillKitana.h">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillLiuKang.h">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillSonya.h">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillSubZero.h">
+      <Filter>Source Files\game\Player\CharacterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\ComputerPlayer.h">
+      <Filter>Source Files\game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\HumanPlayer.h">
+      <Filter>Source Files\game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\Player.h">
+      <Filter>Source Files\game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Player\specialObject.h">
+      <Filter>Source Files\game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="game\State.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\StatusBar.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Button.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\CharacterButton.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MainMenu.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuButtons\Start.h">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuButtons\Credit.h">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuButtons\MenuButton.h">
+      <Filter>Source Files\Menu\MenuButtons</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton\characterSingleton.h">
+      <Filter>Source Files\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton\GeneralSingleton.h">
+      <Filter>Source Files\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton\ImageSingelton.h">
+      <Filter>Source Files\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

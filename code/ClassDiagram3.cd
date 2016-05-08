@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Controller">
+    <Position X="17.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAQEgAAAAAAAACAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAIAIAAAAABAAIAACAAAAAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterButton">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAgAAAIAAAAAgQICRAAAIAAgIAAAAAA=</HashCode>
+      <FileName>CharacterButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="MainMenu::gameButton" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainMenu.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAACAAAAAAAAAAAQAAABAAAAgAAAAAQAAAA=</HashCode>
+      <FileName>MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuButton">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Credit">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Option">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAEAAAIACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Option.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Start">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Start::CharType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Start.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACCAAAAAAAIAAAAAAAAAQAAAAAAAAAAAABA=</HashCode>
+      <FileName>Start.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="characterSingleton">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="characterSingleton::Movement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>characterSingleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="characterSingleton::character" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>characterSingleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="characterSingleton::CharacterMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>characterSingleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="characterSingleton::GameCharacters" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>characterSingleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAAAAIAAAAAAAAAAABAACAAAAAgAAQAAAA=</HashCode>
+      <FileName>characterSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralSingleton">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAACABAABAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>GeneralSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageSingelton">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAAAAAAAAAAAAAAAIAAABAAABAAAAgAQAAAAA=</HashCode>
+      <FileName>ImageSingelton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="State::mode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>State.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatusBar">
+    <Position X="17.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>StatusBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena">
+    <Position X="19" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAIAAQAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Arena.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Move">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAIAEAAgAAAIAAAAAAAKAQAAAAAAAIABAAAA=</HashCode>
+      <FileName>Move.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stand">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LowKick">
+    <Position X="9" Y="8" Width="1.5" />
+    <InheritanceLine Type="Move" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="7.536" />
+        <Point X="8" Y="7.75" />
+        <Point X="9.75" Y="7.75" />
+        <Point X="9.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LowKick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerPlayer">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComputerPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanPlayer">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>HumanPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgSAAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

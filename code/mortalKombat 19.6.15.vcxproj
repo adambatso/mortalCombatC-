@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Difficult\Decision\Decision.cpp" />
+    <ClCompile Include="Difficult\Decision\DistanceDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\JumpDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\JumpDistanceDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\OpponentBlockDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\OpponentDuckDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\OpponentLifeDecision.cpp" />
+    <ClCompile Include="Difficult\Decision\OpponentStandDecision.cpp" />
+    <ClCompile Include="Difficult\Difficulty.cpp" />
+    <ClCompile Include="Difficult\DifficultyEasy.cpp" />
+    <ClCompile Include="Difficult\DifficultyHard.cpp" />
+    <ClCompile Include="Difficult\DifficultyMedium.cpp" />
+    <ClCompile Include="Difficult\Execute\AttackExecute.cpp" />
+    <ClCompile Include="Difficult\Execute\BlockGenerator\BlockGenerator.cpp" />
+    <ClCompile Include="Difficult\Execute\Duckattack.cpp" />
+    <ClCompile Include="Difficult\Execute\Execute.cpp" />
+    <ClCompile Include="Difficult\Execute\ExecuteThreeParameters.cpp" />
+    <ClCompile Include="Difficult\Execute\ExecuteTwoParameters.cpp" />
+    <ClCompile Include="Difficult\Execute\GetcloserSpecial.cpp" />
+    <ClCompile Include="Difficult\Execute\GetcloserStand.cpp" />
+    <ClCompile Include="Difficult\Execute\GetcloserStandBackaway.cpp" />
+    <ClCompile Include="Difficult\Execute\Jumpattack.cpp" />
+    <ClCompile Include="Difficult\Execute\JumpStand.cpp" />
+    <ClCompile Include="Difficult\Execute\JumpStandBackaway.cpp" />
+    <ClCompile Include="Difficult\Execute\JumpStandSpecial.cpp" />
+    <ClCompile Include="Difficult\Execute\RandomAttack.cpp" />
+    <ClCompile Include="Difficult\Execute\StandBackawayDuckattack.cpp" />
+    <ClCompile Include="Difficult\Execute\UpperAttack.cpp" />
+    <ClCompile Include="Difficult\TreeNode.cpp" />
+    <ClCompile Include="game\Move\AttackMove.cpp" />
+    <ClCompile Include="game\Move\Defeat.cpp" />
+    <ClCompile Include="game\Move\duck\DuckBlock.cpp" />
+    <ClCompile Include="game\Move\duck\DuckHighPunch.cpp" />
+    <ClCompile Include="game\Move\duck\Ducking.cpp" />
+    <ClCompile Include="game\Move\duck\DuckKick.cpp" />
+    <ClCompile Include="game\Move\duck\DuckLowPunch.cpp" />
+    <ClCompile Include="game\Move\injury\InjuryDuck.cpp" />
+    <ClCompile Include="game\Move\injury\InjuryJump.cpp" />
+    <ClCompile Include="game\Move\injury\InjuryMove.cpp" />
+    <ClCompile Include="game\Move\injury\InjuryStand.cpp" />
+    <ClCompile Include="game\Move\jump\JumpKick.cpp" />
+    <ClCompile Include="game\Move\jump\JumpMove.cpp" />
+    <ClCompile Include="game\Move\jump\JumpPunch.cpp" />
+    <ClCompile Include="game\Move\jump\JumpSide.cpp" />
+    <ClCompile Include="game\Move\Move.cpp" />
+    <ClCompile Include="game\Move\MovePosition.cpp" />
+    <ClCompile Include="game\Move\SpecialMove.cpp" />
+    <ClCompile Include="game\Move\stand\HighKick.cpp" />
+    <ClCompile Include="game\Move\stand\HighPunch.cpp" />
+    <ClCompile Include="game\Move\stand\LowKick.cpp" />
+    <ClCompile Include="game\Move\stand\LowPunch.cpp" />
+    <ClCompile Include="game\Move\stand\Stand.cpp" />
+    <ClCompile Include="game\Move\stand\StandBlock.cpp" />
+    <ClCompile Include="game\Move\stand\Walking.cpp" />
+    <ClCompile Include="game\Move\Victory.cpp" />
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkill.cpp" />
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillKitana.cpp" />
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillLiuKang.cpp" />
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillSonya.cpp" />
+    <ClCompile Include="game\Player\CharacterSkill\CharacterSkillSubZero.cpp" />
+    <ClCompile Include="game\Player\ComputerPlayer.cpp" />
+    <ClCompile Include="game\Player\HumanPlayer.cpp" />
+    <ClCompile Include="game\Player\Player.cpp" />
+    <ClCompile Include="game\Player\specialObject.cpp" />
+    <ClCompile Include="game\State.cpp" />
+    <ClCompile Include="game\StatusBar.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu\Button.cpp" />
+    <ClCompile Include="Menu\CharacterButton.cpp" />
+    <ClCompile Include="Menu\MainMenu.cpp" />
+    <ClCompile Include="Menu\MenuButtons\Credit.cpp" />
+    <ClCompile Include="Menu\MenuButtons\MenuButton.cpp" />
+    <ClCompile Include="Menu\MenuButtons\Start.cpp" />
+    <ClCompile Include="singleton\characterSingleton.cpp" />
+    <ClCompile Include="singleton\GeneralSingleton.cpp" />
+    <ClCompile Include="singleton\ImageSingelton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Difficult\Decision\Decision.h" />
+    <ClInclude Include="Difficult\Decision\DistanceDecision.h" />
+    <ClInclude Include="Difficult\Decision\JumpDecision.h" />
+    <ClInclude Include="Difficult\Decision\JumpDistanceDecision.h" />
+    <ClInclude Include="Difficult\Decision\OpponentBlockDecision.h" />
+    <ClInclude Include="Difficult\Decision\OpponentDuckDecision.h" />
+    <ClInclude Include="Difficult\Decision\OpponentLifeDecision.h" />
+    <ClInclude Include="Difficult\Decision\OpponentStandDecision.h" />
+    <ClInclude Include="Difficult\Difficulty.h" />
+    <ClInclude Include="Difficult\DifficultyEasy.h" />
+    <ClInclude Include="Difficult\DifficultyHard.h" />
+    <ClInclude Include="Difficult\DifficultyMedium.h" />
+    <ClInclude Include="Difficult\Execute\AttackExecute.h" />
+    <ClInclude Include="Difficult\Execute\BlockGenerator\BlockGenerator.h" />
+    <ClInclude Include="Difficult\Execute\Duckattack.h" />
+    <ClInclude Include="Difficult\Execute\Execute.h" />
+    <ClInclude Include="Difficult\Execute\ExecuteThreeParameters.h" />
+    <ClInclude Include="Difficult\Execute\ExecuteTwoParameters.h" />
+    <ClInclude Include="Difficult\Execute\GetcloserSpecial.h" />
+    <ClInclude Include="Difficult\Execute\GetcloserStand.h" />
+    <ClInclude Include="Difficult\Execute\GetcloserStandBackaway.h" />
+    <ClInclude Include="Difficult\Execute\Jumpattack.h" />
+    <ClInclude Include="Difficult\Execute\JumpStand.h" />
+    <ClInclude Include="Difficult\Execute\JumpStandBackaway.h" />
+    <ClInclude Include="Difficult\Execute\JumpStandSpecial.h" />
+    <ClInclude Include="Difficult\Execute\RandomAttack.h" />
+    <ClInclude Include="Difficult\Execute\StandBackawayDuckattack.h" />
+    <ClInclude Include="Difficult\Execute\UpperAttack.h" />
+    <ClInclude Include="Difficult\TreeNode.h" />
+    <ClInclude Include="game\Move\AttackMove.h" />
+    <ClInclude Include="game\Move\Defeat.h" />
+    <ClInclude Include="game\Move\duck\DuckBlock.h" />
+    <ClInclude Include="game\Move\duck\DuckHighPunch.h" />
+    <ClInclude Include="game\Move\duck\Ducking.h" />
+    <ClInclude Include="game\Move\duck\DuckKick.h" />
+    <ClInclude Include="game\Move\duck\DuckLowPunch.h" />
+    <ClInclude Include="game\Move\injury\InjuryDuck.h" />
+    <ClInclude Include="game\Move\injury\InjuryJump.h" />
+    <ClInclude Include="game\Move\injury\InjuryMove.h" />
+    <ClInclude Include="game\Move\injury\InjuryStand.h" />
+    <ClInclude Include="game\Move\jump\JumpKick.h" />
+    <ClInclude Include="game\Move\jump\JumpMove.h" />
+    <ClInclude Include="game\Move\jump\JumpPunch.h" />
+    <ClInclude Include="game\Move\jump\JumpSide.h" />
+    <ClInclude Include="game\Move\Move.h" />
+    <ClInclude Include="game\Move\MovePosition.h" />
+    <ClInclude Include="game\Move\SpecialMove.h" />
+    <ClInclude Include="game\Move\stand\HighKick.h" />
+    <ClInclude Include="game\Move\stand\HighPunch.h" />
+    <ClInclude Include="game\Move\stand\LowKick.h" />
+    <ClInclude Include="game\Move\stand\LowPunch.h" />
+    <ClInclude Include="game\Move\stand\Stand.h" />
+    <ClInclude Include="game\Move\stand\StandBlock.h" />
+    <ClInclude Include="game\Move\stand\Walking.h" />
+    <ClInclude Include="game\Move\Victory.h" />
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkill.h" />
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillKitana.h" />
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillLiuKang.h" />
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillSonya.h" />
+    <ClInclude Include="game\Player\CharacterSkill\CharacterSkillSubZero.h" />
+    <ClInclude Include="game\Player\ComputerPlayer.h" />
+    <ClInclude Include="game\Player\HumanPlayer.h" />
+    <ClInclude Include="game\Player\Player.h" />
+    <ClInclude Include="game\Player\specialObject.h" />
+    <ClInclude Include="game\State.h" />
+    <ClInclude Include="game\StatusBar.h" />
+    <ClInclude Include="Menu\Button.h" />
+    <ClInclude Include="Menu\CharacterButton.h" />
+    <ClInclude Include="Menu\MainMenu.h" />
+    <ClInclude Include="Menu\MenuButtons\Credit.h" />
+    <ClInclude Include="Menu\MenuButtons\MenuButton.h" />
+    <ClInclude Include="Menu\MenuButtons\Start.h" />
+    <ClInclude Include="singleton\characterSingleton.h" />
+    <ClInclude Include="singleton\GeneralSingleton.h" />
+    <ClInclude Include="singleton\ImageSingelton.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91E585F3-2F8B-4E8F-8770-0D231402F5B7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mortalKombat19615</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

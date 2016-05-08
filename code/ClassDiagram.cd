@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Controller" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAQEgAAAAAAAACAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Move" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAIAEAAgAAAIAAAAAAAKAQAAAAAAAIABAAAA=</HashCode>
+      <FileName>Move.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAIAIAAAAABAAIAACAAAAAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterButton" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAgAAAIAAAAAgQICRAAAIAAgIAAAAAA=</HashCode>
+      <FileName>CharacterButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAACAAAAAAAAAAAQAAABAAAAgAAAAAQAAAA=</HashCode>
+      <FileName>MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuButton" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Credit" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Credit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Option" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAEAAAIACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Option.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Start" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACCAAAAAAAIAAAAAAAAAQAAAAAAAAAAAABA=</HashCode>
+      <FileName>Start.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="characterSingleton" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAAAAIAAAAAAAAAAABAACAAAAAgAAQAAAA=</HashCode>
+      <FileName>characterSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralSingleton" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAACABAABAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>GeneralSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageSingelton" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAAAAAAAAAAAAAAAIAAABAAABAAAAgAQAAAAA=</HashCode>
+      <FileName>ImageSingelton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgSAAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
